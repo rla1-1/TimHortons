@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurants - Tim Hortons</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="images/168197.png">
+    <link rel="stylesheet" href="style/index.css">
+    <link rel="stylesheet" href="style/sub_menu.css">
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/89762c5085.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <!-- header 시작 -->
+    <header>
+        <a href="#main" tabindex="0" class="skip">Skip to content</a>
+        <div class="header">
+            <div class="header__left">
+                <a href="sub_menu.html" class="header__left__menu">menu</a>
+                <a href="#" class="header__left__franchising">franchising</a>
+                <button class="header__left__more"><span>more &#9662;</span></button>
+            </div>
+            <div class="header__logo">
+                <h1>
+                    <a href="index.html"><img src="images/Tim_Hortons_Logo.png" alt="Timhortons"></a>
+                </h1>
+            </div>
+            <div class="header__right">
+                <a href="#" class="header__right__signin">sign in</a>
+                <button href="#" class="header__right__cart" aria-label="cart">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <span>0</span>
+                </button>
+            </div>
+        </div>
+        <div class="moreMenu">
+            <div class="moreMenu__top"></div>
+            <div class="moreMenu__inner">
+                <div>
+                    <ul>
+                        <li><a href="#">tims rewards</a></li>
+                        <li><a href="#">tims rewards terms & conditions</a></li>
+                        <li><a href="#">tims rewards FAQ</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <ul>
+                        <li><a href="#">mobile app FAQ</a></li>
+                        <li><a href="#">tim card</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <ul>
+                        <li><a href="#">scan & pay</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <ul>
+                        <li><a href="#">tim hortons delivery</a></li>
+                        <li><a href="#">tims at home</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <ul>
+                        <li><a href="#">feedback survey</a></li>
+                        <li><a href="#">contact us</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <ul>
+                        <li><a href="#">offer terms</a></li>
+                        <li><a href="#">terms of service</a></li>
+                        <li><a href="#">privacy policy</a></li>
+                        <li><a href="#">unsolicited idea policy</a></li>
+                        <li><a href="#">manage your account</a></li>
+                        <li><a href="#">attrivutions</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="moreMenu__bottom"></div>
+        </div>
+        <div class="cartInfo">
+            <div class="cartInfo__inner">
+                <div class="cartInfo__inner__content">
+                    <p>You don't have anything in your cart yet!</p>
+                    <div class="account">
+                        <span>Total*</span>
+                        <span>$0.00</span>
+                    </div>
+                    <p>Order can not exceed $100.00</p>
+                </div>
+                <div class="cartInfo__inner__checkout">
+                    <span>Checkout</span>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- header 끝 -->
+
+    <div class="menu-header">
+        <div class="menu-header__inner">
+            <h2>Locations</h2>
+            <button href="#" class="menu-header__map active">
+                <span>Map </span>
+                <i class="fa-regular fa-map"></i>
+            </button>
+            <button href="#" class="menu-header__list">
+                <span>List </span>
+                <i class="fa-solid fa-list"></i>
+            </button>
+        </div>
+    </div>
+
+    <section>
+        <div class="store-serch">
+            <div class="store-serch__inner">
+                <div class="store-serch__category">
+                    <button class="pickUp">Pick Up</button>
+                    <button class="delivery">Delivery</button>
+                </div>
+                <div class="store-serch__box">
+                    <div class="store-serch__address">
+                        <form action=" #" method="get">
+                            <input type="text" id="input_focus">
+                            <label for="input_focus" class="placeholder">Your Address</label>
+                            <input type="submit" value="검색"><i class="fa-solid fa-magnifying-glass"></i>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="store-tab active">
+            <div class="store-tab__inner">
+                <div class="tab-header">
+                    <button class="tab-header__title active">Nearby</button>
+                    <button class="tab-header__title">Favorites</button>
+                    <button class="tab-header__title">Recents</button>
+                </div>
+                <div class="tab-body">
+                    <div class="tab-body__content active">
+                        <i class="fa-solid fa-bag-shopping"></i>
+                        <h3>Find a Location Nearby</h3>
+                        <p>Let us know where you are so we can recommend nearby locations.</p>
+                        <button>Share Location</button>
+                    </div>
+                    <div class="tab-body__content">
+                        <i class="fa-regular fa-heart"></i>
+                        <h3>Sign In to Save Favorites</h3>
+                        <p>To set a favorite location, first sign in or sign up for an account.</p>
+                        <button>Sign In</button>
+                    </div>
+                    <div class="tab-body__content">
+                        <i class="fa-solid fa-mug-saucer"></i>
+                        <h3>Sign In to See Recent Locations</h3>
+                        <p>First sign in or sign up for an account.</p>
+                        <button>Sign In</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="store-map">
+            <div class="store-map__inner">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8074.466846470128!2d-79.3915465523638!3d43.6543474975461!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d4cb34d27310bd%3A0xba15d20622070393!2z7LqQ64KY64ukIOyYqO2DgOumrOyYpCDthqDroaDthqAg64uk7Jq07YOA7Jq0IO2GoOuhoO2GoA!5e0!3m2!1sko!2skr!4v1687750533507!5m2!1sko!2skr"
+                    width="1000" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <div class="footer-mobile">
+        <div class="footer-mobile__menu">
+            <a href="#">
+                <i class="fa-brands fa-canadian-maple-leaf"></i>
+                <p>Home</p>
+            </a>
+        </div>
+        <div class="footer-mobile__menu">
+            <a href="#">
+                <i class="fa-solid fa-bottle-droplet"></i>
+                <p>Order</p>
+            </a>
+        </div>
+        <div class="footer-mobile__menu">
+            <a href="#">
+                <i class="fa-solid fa-qrcode"></i>
+                <p>Scan</p>
+            </a>
+        </div>
+        <div class="footer-mobile__menu">
+            <a href="#">
+                <i class="fa-regular fa-clipboard"></i>
+                <p>Offers</p>
+            </a>
+        </div>
+        <div class="footer-mobile__menu">
+            <a href="#">
+                <i class="fa-solid fa-user"></i>
+                <p>Account</p>
+            </a>
+        </div>
+
+    </div>
+
+    <script src="script/header.js"></script>
+    <script src="script/subMenu.js"></script>
+</body>
+
+</html>
